@@ -2,9 +2,9 @@ package br.com.ClinicLife
 
 class TrainingDay {
 
-    char dayLetter
+    String dayLetter
     static hasMany = [muscleSets: MuscleSet]
     static constraints = {
-        dayLetter(inList: ['A', 'B', 'C', 'D', 'E'])
+        dayLetter nullable = false blank = false
     }
 }

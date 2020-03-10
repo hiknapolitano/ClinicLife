@@ -5,7 +5,7 @@ class Training {
     Date createdAt
 
     static belongsTo = [user: User]
-    static hasMany = [weeklyTrainings: WeeklyTraining]
+    static hasMany = [weeklyTrainings: TrainingDay]
     static constraints = {
     }
 }
