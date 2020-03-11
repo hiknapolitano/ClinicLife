@@ -1,4 +1,4 @@
-package cliniclife
+package br.com.ClinicLife
 
 class UrlMappings {
 
