@@ -2,11 +2,11 @@
     <g:formRemote name="userSignUp" url="[controller: 'user', action: 'save']" update="message">
         <div class="form-group">
             <label>Nome</label>
-            <input type="text" class="form-group" placeholder="Nome do Cliente" />
+            <input type="text" class="form-group" placeholder="Nome do cliente" />
         </div>
         <div class="form-group">
             <label>Sobrenome</label>
-            <input type="text" class="form-group" placeholder="Nome do Cliente" />
+            <input type="text" class="form-group" placeholder="Sobrenome do cliente" />
         </div>
         <div class="form-group">
             <label>Sexo</label>

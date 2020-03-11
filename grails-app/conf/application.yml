@@ -91,7 +91,7 @@ hibernate:
 dataSource:
     pooled: true
     jmxExport: true
-    dbCreate: update
+    dbCreate: create-drop
     url: jdbc:mysql://localhost/clinic_life
     driverClassName: com.mysql.jdbc.Driver
     username: clinic_life

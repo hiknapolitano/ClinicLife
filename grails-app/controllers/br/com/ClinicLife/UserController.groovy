@@ -6,4 +6,8 @@ class UserController {
         def list = User.list()
         render(view: "/index", model: [clientes: list])
     }
+
+    def save(){
+
+    }
 }

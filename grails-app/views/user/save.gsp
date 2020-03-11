@@ -1,7 +1,6 @@
 <html>
 <head>
-    <meta name="layout" content="main"/>
-    <title>Clinic Life Management</title>
+    <title>Clinic Life - User Register</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
