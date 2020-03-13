@@ -10,4 +10,14 @@ class UserController {
     def save(){
 
     }
+
+    def create(){
+        def newUser = new User()
+        newUser.name = params.name
+        newUser.lastName = params.lastName
+        newUser.weight = params.name
+        newUser.height = params.height
+        newUser.cpf = params.cpf
+        newUser.save(flush: true)
+    }
 }

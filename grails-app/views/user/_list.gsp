@@ -15,6 +15,9 @@
             <td>cliente.weight</td>
             <td>cliente.height</td>
             <td>cliente.joinDate</td>
+            <td><button>Edit</button></td>
+            <td><button>Manage trainings</button></td>
+            <td><button>Delete</button></td>
         </tr>
     </g:each>
 </table>
