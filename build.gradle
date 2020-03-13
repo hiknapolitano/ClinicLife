@@ -1,5 +1,7 @@
 buildscript {
+
     repositories {
+        jcenter()
         mavenLocal()
         maven { url "https://repo.grails.org/grails/core" }
     }
@@ -7,8 +9,13 @@ buildscript {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
         classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.11.6"
         classpath "org.grails.plugins:hibernate5:6.0.4"
+        classpath "com.siprell.plugins:bootstrap-framework:1.0.3"
+
     }
 }
+
+
+apply plugin: "com.siprell.plugins.bootstrap-framework"
 
 version "0.1"
 group "cliniclife"
@@ -33,6 +40,7 @@ dependencyManagement {
 }
 
 dependencies {
+    compile 'org.grails.plugins:spring-security-core:4.0.0'
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
     compile "org.grails:grails-core"
