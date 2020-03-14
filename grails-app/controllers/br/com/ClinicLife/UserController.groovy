@@ -15,6 +15,8 @@ class UserController {
       newUser.height = params.height
       newUser.cpf = params.cpf
       newUser.save(flush: true)
+      render(template: "form")
+      
     }
 
     def openForm(){

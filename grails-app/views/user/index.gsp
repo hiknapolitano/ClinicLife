@@ -48,6 +48,9 @@
       });
 
       function registerUser(data){
+        showForm(data);
+        console.log("usuario registrado com sucesso");
+        //$("#successMessage").addClass("visible");
         //exibir mensagem de new user adicionado e mostrar ele na lista de users, com o botao de "adicionar treino" piscando ou chamando atenção pra ele!
 
       }
