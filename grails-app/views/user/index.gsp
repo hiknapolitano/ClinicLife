@@ -23,11 +23,14 @@
         url: "openForm",
         data: {}
       })
-        .success((data)=> {
+        .done((data)=> {
           showForm(data);
         });
 
       })
+
+      //nao precisava usar ajax ja que eu nao uso nenhuma data passada pro controller.. podia ser questao de esconder ou mostrar uma div com jquery
+
       function showForm(data){
         $("#registerUserForm").html(data);
       }
@@ -39,12 +42,13 @@
         url: "saveUser",
         data: {$("#userForm").serialize()}
       })
-        .success((data)=> {
+        .done((data)=> {
           registerUser(data);
         });
       });
 
       function registerUser(data){
+        //exibir mensagem de new user adicionado e mostrar ele na lista de users, com o botao de "adicionar treino" piscando ou chamando atenção pra ele!
 
       }
 
