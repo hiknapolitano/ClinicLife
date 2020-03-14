@@ -9,6 +9,7 @@ class UserController {
 
     def save(){
 
+
     }
 
     def create(){
@@ -20,4 +21,9 @@ class UserController {
         newUser.cpf = params.cpf
         newUser.save(flush: true)
     }
+
+    def openForm(){
+      render(template: "form")
+    }
+
 }

@@ -26,12 +26,7 @@
             <input type="text" class="form-group" placeholder="Nome do Cliente" />
             <label>Nome</label>
             <input type="text" class="form-group" placeholder="Nome do Cliente" />
-            <input type="submit" value="Save" />
+            <input type="submit" value="Save" id="submitForm"/>
     </form>
     <div id="message"></div>
 </div>
-
-
-
-
-
