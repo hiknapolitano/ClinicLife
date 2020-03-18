@@ -10,7 +10,7 @@
 
 </head>
 <body>
-
+  <g:render template="list" model="[exercises: exercise]" />
 </body>
 
 </html>
